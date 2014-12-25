@@ -1,0 +1,7 @@
+@media (max-width: 991px) and (min-width: 769px) {
+  /* line 2, ../sass/media.scss */
+  .blog-bootstrap-carousel .carousel-control {
+    width: 40px;
+    height: 60px;
+    font-size: 50px;
+    line-height: 52px; } }

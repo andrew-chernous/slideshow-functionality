@@ -1,0 +1,100 @@
+@import "compass";
+@import "mixin";
+
+body {
+  font-family: "Gotham SSm A", "Gotham SSm B", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: $color;
+}
+
+.blog-bootstrap-carousel {
+  width: 60%;
+}
+
+.modal-content {
+  @include border-radius(6px);
+  @include box-shadow(0 3px 9px rgba(0, 0, 0, 0.5));
+  position: relative;
+  background: #ffffff;
+}
+
+.col-xs-4 .img-responsive {
+  width: 100%;
+}
+
+.blog-bootstrap-carousel {
+  .carousel-control {
+    background: #5a2c7a;
+    color: #ffffff;
+    display: block;
+    font-size: 110px;
+    height: 90px;
+    line-height: 69px;
+    opacity: .5;
+    text-align: center;
+    width: 55px;
+    transition: .3s;
+    margin-top: 28%;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  img.carousel-img {
+    margin: 0 auto;
+  }
+  .carousel-top-controls {
+    overflow: hidden;
+    margin-bottom: 10px;
+    .carousel-thumbnails {
+      border: 1px solid #5a2c7a;
+      border-radius: 5px;
+      display: block;
+      float: left;
+      font-size: 12px;
+      line-height: 1.25;
+      padding: 11px 15px;
+      text-transform: capitalize;
+      color: $color-pink;
+    }
+
+  }
+  .carousel-top-arrows {
+    float: right;
+    a {
+      background: none;
+      border: 1px solid $color-pink;
+      color: $color-pink;
+      display: block;
+      font-size: 40px;
+      font-weight: normal;
+      height: 40px;
+      line-height: 24px;
+      width: 40px;
+      &:hover {
+        background: $color-hover-slider;
+      }
+    }
+  }
+  .item {
+    h2 {
+      font-size: 25px;
+      color: $color-pink;
+    }
+    p {
+      font-size: 12px;
+      line-height: 1.75;
+    }
+  }
+}
+
+.modal-dialog {
+  .modal-header {
+    margin-bottom: -30px;
+  }
+  .col-xs-4 {
+    padding-top: 40px;
+  }
+  h4 {
+    color: $color-pink;
+  }
+}

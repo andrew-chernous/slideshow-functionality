@@ -1,0 +1,113 @@
+/* line 4, ../sass/slider.scss */
+body {
+  font-family: "Gotham SSm A", "Gotham SSm B", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666666; }
+
+/* line 10, ../sass/slider.scss */
+.blog-bootstrap-carousel {
+  width: 60%; }
+
+/* line 14, ../sass/slider.scss */
+.modal-content {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background: #ffffff; }
+
+/* line 21, ../sass/slider.scss */
+.col-xs-4 .img-responsive {
+  width: 100%; }
+
+/* line 26, ../sass/slider.scss */
+.blog-bootstrap-carousel .carousel-control {
+  background: #5a2c7a;
+  color: #ffffff;
+  display: block;
+  font-size: 110px;
+  height: 90px;
+  line-height: 69px;
+  opacity: .5;
+  text-align: center;
+  width: 55px;
+  transition: .3s;
+  margin-top: 28%; }
+  /* line 38, ../sass/slider.scss */
+  .blog-bootstrap-carousel .carousel-control:hover {
+    opacity: 1; }
+/* line 42, ../sass/slider.scss */
+.blog-bootstrap-carousel img.carousel-img {
+  margin: 0 auto; }
+/* line 45, ../sass/slider.scss */
+.blog-bootstrap-carousel .carousel-top-controls {
+  overflow: hidden;
+  margin-bottom: 10px; }
+  /* line 48, ../sass/slider.scss */
+  .blog-bootstrap-carousel .carousel-top-controls .carousel-thumbnails {
+    border: 1px solid #5a2c7a;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 11px 15px;
+    text-transform: capitalize;
+    color: #5a2c7a; }
+/* line 61, ../sass/slider.scss */
+.blog-bootstrap-carousel .carousel-top-arrows {
+  float: right; }
+  /* line 63, ../sass/slider.scss */
+  .blog-bootstrap-carousel .carousel-top-arrows a {
+    background: none;
+    border: 1px solid #5a2c7a;
+    color: #5a2c7a;
+    display: block;
+    font-size: 40px;
+    font-weight: normal;
+    height: 40px;
+    line-height: 24px;
+    width: 40px; }
+    /* line 73, ../sass/slider.scss */
+    .blog-bootstrap-carousel .carousel-top-arrows a:hover {
+      background: #fde42e; }
+/* line 79, ../sass/slider.scss */
+.blog-bootstrap-carousel .item h2 {
+  font-size: 25px;
+  color: #5a2c7a; }
+/* line 83, ../sass/slider.scss */
+.blog-bootstrap-carousel .item p {
+  font-size: 12px;
+  line-height: 1.75; }
+
+/* line 91, ../sass/slider.scss */
+.modal-dialog .modal-header {
+  margin-bottom: -30px; }
+/* line 94, ../sass/slider.scss */
+.modal-dialog .col-xs-4 {
+  padding-top: 40px; }
+/* line 97, ../sass/slider.scss */
+.modal-dialog h4 {
+  color: #5a2c7a; }
+
+@media (max-width: 991px) and (min-width: 480px) {
+  /* line 2, ../sass/media.scss */
+  .blog-bootstrap-carousel .carousel-control {
+    width: 40px;
+    height: 60px;
+    font-size: 50px;
+    line-height: 52px; } }
+@media screen and (max-width: 480px) {
+  /* line 11, ../sass/media.scss */
+  .blog-bootstrap-carousel .carousel-control {
+    width: 40px;
+    height: 60px;
+    font-size: 50px;
+    line-height: 52px; }
+
+  /* line 17, ../sass/media.scss */
+  .blog-bootstrap-carousel .item h2 {
+    font-size: 16px; } }
